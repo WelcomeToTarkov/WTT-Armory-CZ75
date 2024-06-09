@@ -1,0 +1,594 @@
+{
+	"6661012d16fbd2fb75408f87": {
+		"itemTplToClone": "5cadc190ae921500103bb3b6",
+		"parentId": "5447b5cf4bdc2d65278b4567",
+		"handbookParentId": "5b5f792486f77447ed5636b3",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/cz75.bundle",
+				"rcid": ""
+			},
+			"DurabilityBurnRatio": 1.1,
+			"HeatFactorByShot": 2.5,
+			"OperatingResource": 2500,
+			"RecoilForceBack": 289,
+			"RecoilForceUp": 417,
+			"RepairCost": 48,
+			"Weight": 0.26,
+			"ExaminedByDefault": true,
+			"defAmmo": "58864a4f2459770fcc257101",
+			"defMagType": "666101d005b02d7b36e6e958",
+			"Slots": [
+				{
+					"_id": "5f36a0e5fbf956000b716b67",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_barrel",
+					"_parent": "5f36a0e5fbf956000b716b65",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"666101e8704063719a3d9d62",
+									"666102059eca4774fd5888a6"
+								
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "5f36a0e5fbf956000b716b68",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_pistol_grip",
+					"_parent": "5f36a0e5fbf956000b716b65",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"66610218c1c16beabe23295d",
+									"66610227f5d03404a7922f37"
+									
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "5f36a0e5fbf956000b716b69",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_reciever",
+					"_parent": "5f36a0e5fbf956000b716b65",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"6661023c34cb7dd29de7f941"
+									
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": true
+				},
+				{
+					"_id": "5f36a0e5fbf956000b716b6a",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_magazine",
+					"_parent": "5f36a0e5fbf956000b716b65",
+					"_props": {
+						"filters": [
+							{
+								"AnimationIndex": 0,
+								"Filter": [
+									"666101d005b02d7b36e6e958"
+									
+								]
+							}
+						]
+					},
+					"_proto": "55d30c394bdc2dae468b4577",
+					"_required": false
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "CZ 75 9x19mm Pistol",
+				"shortName": "CZ 75",
+				"description": "The CZ 75 is a semi-automatic pistol made by Czech firearm manufacturer ČZUB. First introduced in 1975, it is one of the original 'wonder nines' and features a staggered-column magazine, all-steel construction, and a hammer forged barrel. It is widely distributed throughout the world and is the most common handgun in the Czech Republic."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 9700,
+		"handbookPriceRoubles": 4900,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Level2": 75,
+				"Level3": 100,
+				"Name": "CZ75",
+				"Templates": [
+					"6661012d16fbd2fb75408f87"
+				]
+			}
+		],
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{"_changeWeaponName": false,
+		"_encyclopedia": "6661012d16fbd2fb75408f87",
+		"_id": "660f30ad010014a65e428d03",
+		"_items": [
+			{
+				"_id": "9b5f96198ed18d121f2b4edd",
+				"_tpl": "6661012d16fbd2fb75408f87",
+				"upd": {
+					"Repairable": {
+						"MaxDurability": 100,
+						"Durability": 100
+					},
+					"FireMode": {
+						"FireMode": "single"
+					}
+				}
+			},
+			{
+				"_id": "b62352570c9700730aae1f1f",
+				"_tpl": "666102059eca4774fd5888a6",
+				"parentId": "9b5f96198ed18d121f2b4edd",
+				"slotId": "mod_barrel"
+			},
+			{
+				"_id": "2efda5aed9e7fb9bbcd4dc80",
+				"_tpl": "66610218c1c16beabe23295d",
+				"parentId": "9b5f96198ed18d121f2b4edd",
+				"slotId": "mod_pistol_grip"
+			},
+			{
+				"_id": "aaee77192cf3245ac133eb95",
+				"_tpl": "6661023c34cb7dd29de7f941",
+				"parentId": "9b5f96198ed18d121f2b4edd",
+				"slotId": "mod_reciever"
+			},
+			{
+				"_id": "d7f575dfc8dcc7e921ae500a",
+				"_tpl": "666101d005b02d7b36e6e958",
+				"parentId": "9b5f96198ed18d121f2b4edd",
+				"slotId": "mod_magazine"
+			}
+		],
+		"_name": "CZ75",
+		"_parent": "9b5f96198ed18d121f2b4edd",
+		"_type": "Preset"
+	}
+			
+		]
+	},
+	"666101e8704063719a3d9d62": {
+		"itemTplToClone": "5cadc1c6ae9215000f2775a4",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/cz75barrelthreaded.bundle",
+				"rcid": ""
+			},
+			"CenterOfImpact": 0.3,
+			"BackgroundColor": "blue",
+			"ExaminedByDefault": true,
+			"Slots": [
+				{
+					"_name": "mod_muzzle",
+					"_id": "5cadc1c6ae9215000f2775a6",
+					"_parent": "5cadc1c6ae9215000f2775a4",
+					"_props": {
+					  "filters": [
+						{
+						  "Shift": 0,
+						  "Filter": [
+							"5c7e8fab2e22165df16b889b",
+							"5a33a8ebc4a282000c5a950d",
+							"5c6165902e22160010261b28",
+							"5a32a064c4a28200741e22de",
+							"666102ef2d367ec85ddd2030"
+						  ]
+						}
+					  ]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d30c4c4bdc2db4468b457e"
+				  }
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "CZ 75 9x19mm Threaded Barrel",
+				"shortName": "CZ 75",
+				"description": "Threaded barrel for the CZ 75 9x19mm pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 7000,
+		"handbookPriceRoubles": 2700,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"666102059eca4774fd5888a6": {
+		"itemTplToClone": "5a6b5f868dc32e000a311389",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"handbookParentId": "5b5f75c686f774094242f19f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/cz75barrel.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "blue",
+			"CenterOfImpact": 0.33,
+			"ExaminedByDefault": true,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "CZ 75 9x19mm Barrel",
+				"shortName": "CZ 75",
+				"description": "Standard barrel for the CZ 75 9x19mm pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 2500,
+		"handbookPriceRoubles": 1100,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"6661023c34cb7dd29de7f941": {
+		"itemTplToClone": "5f3e7823ddc4f03b010e2045",
+		"parentId": "55818a304bdc2db5418b457d",
+		"handbookParentId": "5b5f764186f77447ec5d7714",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/cz75slide.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "blue",
+			"Slots": [
+			],
+			"ExaminedByDefault": true,
+			"Ergonomics": 2
+		},
+		"locales": {
+			"en": {
+				"name": "CZ 75 9x19mm Pistol Slide",
+				"shortName": "CZ 75",
+				"description": "Standard pistol slide for the CZ 75 9x19mm pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_receiver"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 5500,
+		"handbookPriceRoubles": 3100,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"666101d005b02d7b36e6e958": {
+		"itemTplToClone": "602286df23506e50807090c6",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/cz75magazine.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "yellow",
+			"Ergonomics": -2,
+			"MalfunctionChance": 0.03,
+			"Weight": 0.1,
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "CZ 75 16-Round 9x19mm Magazine",
+				"shortName": "CZ 75",
+				"description": "A 16-round 9x19mm magazine for the CZ 75 pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 1350,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"66610227f5d03404a7922f37": {
+		"itemTplToClone": "5e81c6bf763d9f754677beff",
+		"parentId": "55818a684bdc2ddd698b456d",
+		"handbookParentId": "5b5f761f86f774094242f1a1",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/cz75gripw.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "blue",
+			"Ergonomics": 5,
+			"Weight": 0.28,
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "CZ 75 Wooden Grips",
+				"shortName": "CZ 75",
+				"description": "Wooden side grips for the CZ 75 9x19mm pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_pistol_grip"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3000,
+		"handbookPriceRoubles": 1200,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"66610218c1c16beabe23295d": {
+		"itemTplToClone": "5e81c6bf763d9f754677beff",
+		"parentId": "55818a684bdc2ddd698b456d",
+		"handbookParentId": "5b5f761f86f774094242f1a1",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/cz75gripr.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "blue",
+			"Ergonomics": 5,
+			"Weight": 0.26,
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "CZ 75 Pistol Grips",
+				"shortName": "CZ 75",
+				"description": "Side grips for the CZ 75 9x19mm pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_pistol_grip"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 2500,
+		"handbookPriceRoubles": 1000,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"666102ef2d367ec85ddd2030": {
+		"itemTplToClone": "5c7e8fab2e22165df16b889b",
+		"parentId": "550aa4cd4bdc2dd8348b456c",
+		"handbookParentId": "5b5f731a86f774093e6cb4f9",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponCZ75/suppressor_tundra.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "blue",
+			"HeatFactor": 1.14,
+			"ConflictingItems": ["5a7ad74e51dfba0015068f45"],
+			"Ergonomics": -18,
+			"Recoil": -6,
+			"Loudness": -23,
+			"Weight": 0.335,
+			"DurabilityBurnModificator": 1.68,
+			"Velocity": 0.85,
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "Gemtech Tundra 9x19mm Suppressor",
+				"shortName": "Tundra",
+				"description": "A direct-thread 9x19mm suppressor manufactured by Gemtech."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 36000,
+		"handbookPriceRoubles": 18440,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+}
